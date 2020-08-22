@@ -1,0 +1,101 @@
+---
+layout: post
+title:  "Character vector splitting in R"
+date:   2015-05-19
+categories: mediator feature
+tags: featured
+---
+
+Occasionally, I would encounter a problem in *R* where I want to split a string in a character columns with the same separator. However, there's is no function in R that is capable of doing that, and it the **strsplit** function always return a list which I have to **unlist** it.
+
+So today, I finally typed up a *Rcpp* function to ease my work and the code is as followed.
+
+
+	# include <Rcpp.h>
+	using namespace Rcpp;
+	
+	//[[Rcpp::export]]
+	std::vector< std::string > string_split(std::vector< std::string > x, char sep, int num)
+	{
+	    int i, j, numChar, start, length, numStrings = x.size();
+		std::vector< std::string > result(numStrings);
+	
+	    for (i = 0 ; i < numStrings; i++ )
+	    {
+	        numChar = x[i].length();
+			std::vector< int > sepPos(1); // which character is separater
+			j = 0;
+	        while (j < numChar)
+	        {
+	            if (x[i][j] == sep)
+	            {
+					sepPos.push_back(j); 
+					j ++;
+	            }
+	            else
+	            {
+					j ++;
+	            }
+	        }
+			sepPos.push_back(numChar); // add last character number
+			if (num==1)
+			{	
+				start = sepPos[num-1] ;
+				length = sepPos[num]-sepPos[num-1];
+			}
+			else
+			{
+				start = sepPos[num-1] + 1;
+				length = sepPos[num]-sepPos[num-1] -1;
+			}
+			result[i] = x[i].substr(start,length);
+			}
+		}
+	
+	    return result;
+	}
+
+
+The script takes three inputs:
+
+* The character vector that is being split
+* separator 
+* the fragment that is desired  
+
+
+
+Test the code:
+```{r warning = F, messages =F}
+
+library(Rcpp)
+sourceCpp('~/scripts/R/Rcpp/string_split.cpp')
+
+testVector <- rep('I~am~a~boy',10)
+for (i in 1:4){
+	print(string_split(testVector,'~',i))
+}
+```
+
+Benchmarking:
+
+```{r warning = F, messages =F}
+library(rbenchmark)
+library(ggplot2)
+
+r_string_split <- function(x){
+	sapply(x,function(y) unlist(strsplit(x,'~'))[2])
+}
+
+bm <- benchmark(string_split(testVector,'~',2),r_string_split(testVector))
+bm
+
+
+ggplot(data = bm,aes(x = test, y = relative)) +
+		geom_bar(stat='identity') +
+		theme(axis.text.x = element_text(angle=90,
+										hjust = 1,
+										vjust = 0.5))+
+		labs(y = 'relative speed',title = 'benchmarking result')
+```
+
+The *c++* function is almost 50x faster.

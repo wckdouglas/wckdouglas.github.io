@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "dplyr: revolution of R syntax"
+date:   2015-04-14
+categories: mediator feature
+tags: featured
+---
+
+I have been using [dplyr](https://github.com/hadley/dplyr) for a while and found it changing my codes in R scripts. It is very convenient as for data mungling and cleaning (whatever the verb you wish to use). The main syntax '%>%' is almost like '|' in linux, any data frame can be passed/piped into the next verb.
+
+```{r}
+library(dplyr)
+data(DNase)
+
+head(DNase)
+summary(DNase)
+
+dat <- DNase %>% 
+	filter(Run != 10) %>%   # filtering any Run smaller than 10
+  	tbl_df()
+
+summary(dat)
+
+dat <- DNase %>%
+	mutate(Run_duplicate = Run) # make a new column with the verb 'mutate'
+
+head(dat)
+
+summaryTable <- dat %>% 
+              group_by(Run) %>% 
+              summarize(number_of_sample = n(),        # group_by and summarize can be very useful for
+                        sum_density = sum(density))    # getting summary statistics for different categories	
+
+summaryTable
+```
+
+from [Rstudio blog](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) 
+
+
+![Image of ggplot_cheartsheet](https://raw.githubusercontent.com/wckdouglas/wckdouglas.github.io/master/assets/article_images/dplyrCheatSheet/dplyr.0.png)
+![Image of ggplot_cheartsheet2](https://raw.githubusercontent.com/wckdouglas/wckdouglas.github.io/master/assets/article_images/dplyrCheatSheet/dplyr.1.png)

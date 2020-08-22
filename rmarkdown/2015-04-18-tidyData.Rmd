@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Tidy data"
+date:   2015-04-18
+categories: mediator feature
+tags: featured
+---
+
+###Tidy data format
+I have came across the original tidyr [paper](http://vita.had.co.nz/papers/tidy-data.pdf) recently, and start to understand more about tidy data format. In fact, in my previous post, the [cheatsheet of dplyr](https://raw.githubusercontent.com/wckdouglas/wckdouglas.github.io/master/assets/article_images/dplyrCheatSheet/dplyr.0.png) also showed a the tidy data format. As Hadley Wickham pointed out in the paper, each observation should occupy one row, and each column should store the value of a variable. 
+
+
+```{r}
+library(dplyr)
+library(tidyr)
+data(sleep)
+```
+
+This is a clean data, observation gathered to one column:
+
+```{r}
+sleep # clean data
+```
+
+This is a messy data with observations in two columns:
+
+```{r}
+sleep %>% 
+	spread(group,extra) # messy data
+
+```
+
+###Situation that tidy data may not work
+I found this format very useful in analysis, especially when using [dplyr](http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) and [ggplot](http://ggplot2.org) in my research. However, I have encountered one particular situation that tidy data may not be the best choice, which is machine learning. Since predictive models in [R](http://caret.r-forge.r-project.org) requires each row representing a sample or class label, and each columns contain observation or contributors, models can not be applied tidy data format. But as I am still new to the field, maybe there's a way to get around or I misunderstood the table.

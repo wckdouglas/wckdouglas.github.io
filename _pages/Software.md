@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SOFTWARE
-permalink: /Software/
+permalink: /software/
 ---
 
 As I do programming exclusively on RNA/DNA-seq experiments bioinformatics analysis, all of the softwares I wrote are mainly focus on this aspect.

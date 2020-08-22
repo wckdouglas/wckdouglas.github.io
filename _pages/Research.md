@@ -2,7 +2,7 @@
 layout: page
 category : pages
 title: RESEARCH
-permalink: /Research/
+permalink: /research/
 ---
 
 # Sequencing (TGIRT) #

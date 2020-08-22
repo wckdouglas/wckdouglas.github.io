@@ -2,7 +2,7 @@
 layout: page
 category : pages
 title: RESUME
-permalink: /Resume/
+permalink: /resume/
 ---
 
 <iframe src="https://wckdouglas.github.io/assets/docs/DW_resume.pdf" width="100%" height="1000px" type='application/pdf'>

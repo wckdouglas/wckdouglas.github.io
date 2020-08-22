@@ -19,9 +19,35 @@
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/Software"> Software </a>
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/Build"> Build </a>
       <a class="sidebar-nav-item" href="{{ site.baseurl }}/COVID"> COVID19 </a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+
+
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <a href="mailto:{{ site.author.gmail }}@gmail.com?Subject=Is%20this%20a%20spam">
+    <img style="display: inline" src="{{ site.baseurl }}/assets/icons/mail.png" alt="" width="24" height="24">
+    </a>
+
+    <a  href="https://github.com/{{ site.author.github }}">
+    <img style="display: inline" src="{{ site.baseurl }}/assets/icons/github.png" alt="" width="24" height="24">
+    </a> 
+
+    <a  href="https://twitter.com/{{ site.author.twitter }}">
+    <img style="display: inline" src="{{ site.baseurl }}/assets/icons/twitter.png" alt="" width="24" height="24" />
+    </a> 
+
+    <a href="https://scholar.google.com/citations?user={{ site.author.googleScholar }}=en">
+    <img style="display: inline" src="{{ site.baseurl }}/assets/icons/gscholar.png" alt="" width="24" height="24" />
+    </a> 
+
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"> 
+    <img style="display: inline" src="{{ site.baseurl }}/assets/icons/linkedin.png" alt="" width="24" height="24" />
+    </a> 
+
+    <a href="https://orcid.org/{{ site.author.orcid }}"> 
+    <img style="display: inline" src="{{ site.baseurl }}/assets/icons/orcid.png" alt="" width="24" height="24" />
+    </a> 
+
+
+
   </div>
 </div>

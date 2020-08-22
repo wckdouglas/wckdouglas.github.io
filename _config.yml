@@ -10,15 +10,14 @@ url:              ""
 baseurl:          ""
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Douglas C. Wu'
+  twitter:        'wckdouglas'
+  github:         'wckdouglas'   
+  gmail:          'wckdouglas'
+  googleScholar:  'avA3c5MAAAAJ&hl'
+  linkedin:       'wckdouglas'
+  orcid:          '0000-0001-6179-3110'  
 
 paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           ""
 
 include: [_pages]

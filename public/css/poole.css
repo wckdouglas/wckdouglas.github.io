@@ -69,12 +69,9 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
-  word-break: break-all;
-  overflow-wrap: break-word; 
 }
 a strong {
   color: inherit;
-  word-break: break-all;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
@@ -110,6 +107,7 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align:justify;
 }
 
 strong {
@@ -121,6 +119,7 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  text-align:justify;
 }
 
 dt {

@@ -1,0 +1,38 @@
+<p>
+  {% if site.gmailUsername %}
+	  <a href="mailto:{{ site.gmailUsername }}@gmail.com?Subject=Is%20this%20a%20spam">
+      <img src="{{ site.baseurl }}/assets/icons/mail.png" alt="" width="30" height="30">
+    </a>
+  {% endif %}
+
+  {% if site.githubUsername %} 
+    <a  href="https://github.com/{{ site.githubUsername }}">
+      <img src="{{ site.baseurl }}/assets/icons/github.png" alt="" width="24" height="24">
+    </a> 
+  {% endif %}
+
+  {% if site.twitterUsername %} 
+    <a  href="https://twitter.com/{{ site.twitterUsername }}">
+      <img src="{{ site.baseurl }}/assets/icons/twitter.png" alt="" width="28" height="28" />
+    </a> 
+  {% endif %}
+
+  {% if site.googleScholarUsername %} 
+    <a href="https://scholar.google.com/citations?user={{ site.googleScholarUsername }}=en">
+      <img src="{{ site.baseurl }}/assets/icons/gscholar.png" alt="" width="25" height="25" />
+    </a> 
+  {% endif %}
+  
+  {% if site.linkedinUsername %} 
+    <a href="https://www.linkedin.com/in/{{ site.linkedinUsername }}"> 
+      <img src="{{ site.baseurl }}/assets/icons/linkedin.png" alt="" width="28" height="28" />
+    </a> 
+  {% endif %}
+
+  {% if site.orcid %} 
+    <a href="https://orcid.org/{{ site.orcid }}"> 
+      <img src="{{ site.baseurl }}/assets/icons/orcid.png" alt="" width="28" height="28" />
+    </a> 
+  {% endif %}
+
+</p>

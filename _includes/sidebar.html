@@ -1,0 +1,27 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/index.html">Home</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/about"> About </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/Research"> Research </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/Blog"> Blog </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/Publications"> Publications </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/Resume"> Resume </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/Software"> Software </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/Build"> Build </a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/COVID"> COVID19 </a>
+      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>

@@ -1,0 +1,136 @@
+- author: Yao J*, <b>Wu DC*</b>, Nottingham RM, and Lambowtiz AM
+  year: Preprint
+  title: "Identification of protein-protected mRNA fragments and structured excised intron RNAs in human plasma by TGIRT-seq peak calling"
+  vol: "(*contributed equally)"
+  ref: bioRXiv
+  scripts: https://github.com/wckdouglas/cfNA
+  link: https://www.biorxiv.org/content/10.1101/2020.06.25.171439v1
+  doi: 10.1101/2020.06.25.171439
+
+
+- author: Wu NC, Lv H, Thompson AJ, <b>Wu DC</b>, Ng WWS, Kadam RU, Lin CW, Nycholat CM, McBride R, Liang W, Paulson JC, Mok CKP, and Wilson IA
+  year: 2019
+  title: "Preventing an Antigenically Disruptive Mutation in Egg-Based H3N2 Seasonal Influenza Vaccines by Mutational Incompatibility"
+  ref:  Cell Host & Microbe
+  vol: "25(6):836-844"
+  scripts: https://github.com/wchnicholas/incompatible_egg_muts
+  link: https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(19)30216-1
+  doi: 10.1016/j.chom.2019.04.013
+
+
+- author: Xu H*, Yao J*, <b>Wu DC*</b>, and Lambowitz AM
+  year: 2019
+  title: "Improved TGIRT-seq methods for comprehensive transcriptome profiling with decreased adapter dimer formation and bias correction"
+  ref:  Scientific Reports 
+  vol: "9:7953 (*contributed equally)"
+  scripts: https://github.com/wckdouglas/tgirt_smRNA
+  link: https://www.nature.com/articles/s41598-019-44457-z
+  doi: 10.1038/s41598-019-44457-z
+
+
+- author: <b>Wu DC</b>, Yao J, Ho KS, Lambowitz AM, and Wilke CO
+  year: 2018
+  title: Limitations of alignment-free tools in total RNA-seq quantification
+  ref: BMC Genomics 
+  vol: "19:510"
+  scripts: https://github.com/wckdouglas/tgirt_benchmark
+  link: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4869-5
+  doi: 10.1186/s12864-018-4869-5
+
+- author: Guan W*, Wu NC*, Lee HHY, Li Y, Jiang W, Shen L, <b>Wu DC</b>, Chen R, Zhong N, Wilson IA, Peiris M, Yang Z, and Mok CKP 
+  year: 2018
+  title: Clinical Correlations of Transcriptional Profile in Patients Infected with Avian Influenza H7N9 Virus
+  ref: The Journal of Infectious Diseases
+  vol: "jiy317 (*contributed equally)"
+  scripts: https://github.com/wckdouglas/H7N9_pathway
+  link: https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiy317/5017262
+  doi: 10.1093/infdis/jiy317
+
+
+- author: <b>Wu DC</b> and Lambowitz AM
+  year: 2017
+  title: Facile single-stranded DNA sequencing of human plasma DNA via thermostable group II intron reverse transcriptase template switching
+  ref: Scientific Reports
+  vol: "7:8421"
+  scripts: https://github.com/wckdouglas/tgirt-dna-seq
+  link: https://www.nature.com/articles/s41598-017-09064-w
+  doi: 	10.1038/s41598-017-09064-w
+  sra: https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=4265625
+
+
+- author: Nottingham RM*, <b>Wu DC*</b>, Qin Y, Yao J, Hunicke-Smith S, and Lambowitz AM
+  year: 2016 
+  title: RNA-seq of human reference RNA samples using a thermostable group II intron reverse transcriptase
+  ref: RNA 
+  vol: 22(4):597-613 (*contributed equally)
+  scripts: https://github.com/wckdouglas/tgirtERCC.git
+  link: http://rnajournal.cshlp.org/content/early/2016/01/29/rna.055558.115?top=1
+  doi: 10.1261/rna.055558.115
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA301711
+
+- author: Qin Y*, Yao J*, <b>Wu DC</b>, Nottingham RM, Mohr S, Hunicke-Smith S, and Lambowitz AM
+  year: 2016 
+  title: High-throughput sequencing of human plasma RNA by using thermostable group II intron reverse transcriptases
+  ref: RNA
+  vol: "22(1):111-128 (*contributed equally)"
+  scripts: https://github.com/wckdouglas/plasmaMiRNATissue
+  link: http://rnajournal.cshlp.org/content/22/1/111.short
+  doi: 10.1261/rna.054809.115
+  sra: https://www.ncbi.nlm.nih.gov/bioproject?LinkName=sra_bioproject&from_uid=1855706
+
+
+- author: Geuss LR, <b>Wu DC</b>, Ramamoorthy D, Alford CD, and Suggs LJ
+  year: 2014
+  title: Paramagnetic Beads and Magnetically Mediated Strain Enhance Cardiomyogenesis in Mouse Embryoid Bodies
+  ref: PLoS ONE
+  vol: "9(12):e113982"
+  scripts: https://github.com/wckdouglas/magnetic_Script
+  link: http://www.plosone.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pone.0113982&representation=PDF
+  doi: 10.1371/journal.pone.0113982
+
+- author: Tan Y, Tajik A, Chen J, Jia Q, Chowdhury F, Wang L, Chen J, Zhang S, Hong Y, Yi H, <b>Wu DC</b>, Zhang Y, Wei F, Poh YC, Seong J, Singh R, Lin L, Doganay S, Li Y, Jia H, Ha TJ, Wang Y, Huang B, and Wang N
+  year: 2014
+  title: Matrix softness regulates plasticity of tumour-repopulating cells via H3K9 demethylation and Sox2 expression
+  ref: Nature Communication 
+  vol: "5:4619"
+  scripts:
+  link: http://www.nature.com/ncomms/2014/140806/ncomms5619/pdf/ncomms5619.pd
+  doi: 10.1038/ncomms5619
+
+- author: Poh YC, Chen J, Hong Y, Yi H, Zhang S, Chen J, <b>Wu DC</b>, Wang L, Jia Q, Singh R, Yao W, Tan Y, Tajik A, Tanaka TS, and Wang N
+  year: 2014
+  title: Generation of organized mouse germ layers from single embryonic stem cell
+  ref: Nature Communication
+  vol: "5:4000"
+  scripts:
+  link: http://www.nature.com/ncomms/2014/140530/ncomms5000/pdf/ncomms5000.pd
+  doi: 10.1038/ncomms5000
+
+- author: Poh YC, Shevtsov SP, Chowdhury F, <b>Wu DC</b>, Na S, Dundr M, and Wang N
+  year: 2012
+  title: Dynamic force-induced direct dissociation of protein complexes in a nuclear body in living cells
+  ref: Nature Communication
+  vol: "3:866"
+  scripts:
+  link: http://www.nature.com/ncomms/journal/v3/n5/pdf/ncomms1873.pdf
+  doi:  10.1038/ncomms1873
+
+
+- author: Uda Y, Poh YC, Chowdhury F, <b>Wu DC</b>, Tanaka TS, Sato M, and Wang N
+  year: 2011
+  title: Force via integrins but not E-cadherin decreases Oct3/4 expression in embryonic stem cells
+  ref: Biochemical and Biophysical Research Communications
+  vol: "415(2):396-400"
+  scripts: 
+  link: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3221912/pdf/nihms333966.pdf
+  doi: 10.1016/j.bbrc.2011.10.080
+
+
+- author: <b>Wu DC</b> and Waye M.
+  year: 2011
+  title: The relationship between MicroRNA and Tumor Suppressors
+  ref: Tumor Suppressors Nova Science
+  vol: 175-188
+  scripts:
+  link: https://www.novapublishers.com/catalog/product_info.php?products_id=24192
+  doi:

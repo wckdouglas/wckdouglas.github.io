@@ -1,6 +1,9 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      pygments
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 permalink: /:year/:month/:title
 
 # Setup

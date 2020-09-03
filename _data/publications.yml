@@ -1,11 +1,11 @@
 - author: Yao J*, <b>Wu DC*</b>, Nottingham RM, and Lambowtiz AM
-  year: Preprint
+  year: 2019
   title: "Identification of protein-protected mRNA fragments and structured excised intron RNAs in human plasma by TGIRT-seq peak calling"
-  vol: "(*contributed equally)"
-  ref: bioRXiv
+  vol: "2020(9):e60743 (*contributed equally)"
+  ref: eLife
   scripts: https://github.com/wckdouglas/cfNA
-  link: https://www.biorxiv.org/content/10.1101/2020.06.25.171439v1
-  doi: 10.1101/2020.06.25.171439
+  link: https://elifesciences.org/articles/60743
+  doi: 10.7554/eLife.60743
 
 
 - author: Wu NC, Lv H, Thompson AJ, <b>Wu DC</b>, Ng WWS, Kadam RU, Lin CW, Nycholat CM, McBride R, Liang W, Paulson JC, Mok CKP, and Wilson IA

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "BUILDING COMPUTING ENVIRONMENT"
-permalink: /Build/
+permalink: /build/
 ---
 
 This page contains the instruction for building my favourite computing environment on a Linux cluster.

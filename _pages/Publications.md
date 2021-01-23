@@ -36,7 +36,7 @@ permalink: /publications/
     
     <!-- SRA project  -->
     {% if pub.sra %}
-        <a style="display:inline" href="{{ pub.sra }}"><img style="display:inline" src="{{ site.baseurl }}/assets/icons/dna.svg" alt="" width="20" height="20">
+        <a style="display:inline" href="{{ pub.sra }}"><img style="display:inline" src="{{ site.baseurl }}/assets/icons/dna.png" alt="" width="20" height="20">
         </a>
     {% endif %}
     </li>

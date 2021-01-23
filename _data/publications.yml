@@ -14,6 +14,7 @@
   ref: bioRxiv
   link: https://www.biorxiv.org/content/10.1101/2020.09.07.285114v1.abstract
   doi: 10.1101/2020.09.07.285114
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
 
 - author: Yao J*, <b>Wu DC*</b>, Nottingham RM, and Lambowitz AM
   year: 2020
@@ -23,6 +24,7 @@
   scripts: https://github.com/wckdouglas/cfNA
   link: https://elifesciences.org/articles/60743
   doi: 10.7554/eLife.60743
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
 
 
 - author: Wu NC, Lv H, Thompson AJ, <b>Wu DC</b>, Ng WWS, Kadam RU, Lin CW, Nycholat CM, McBride R, Liang W, Paulson JC, Mok CKP, and Wilson IA
@@ -43,6 +45,7 @@
   scripts: https://github.com/wckdouglas/tgirt_smRNA
   link: https://www.nature.com/articles/s41598-019-44457-z
   doi: 10.1038/s41598-019-44457-z
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA505326
 
 
 - author: <b>Wu DC</b>, Yao J, Ho KS, Lambowitz AM, and Wilke CO

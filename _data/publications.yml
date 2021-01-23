@@ -3,9 +3,9 @@
   title: "Human airway cells prevent SARS-CoV-2 multibasic cleavage site cell culture adaptation"
   vol: ""
   ref: bioRxiv
+  scripts: https://github.com/wchnicholas/SARS_CoV2_mutation
   link: https://www.biorxiv.org/content/10.1101/2021.01.22.427802v1
   doi: https://doi.org/10.1101/2021.01.22.427802
-  scripts: https://github.com/wchnicholas/SARS_CoV2_mutation
 
 - author: Yao J, Xu H, <b>Wu DC</b>, Ares M, Lambowitz AM
   year: Preprint

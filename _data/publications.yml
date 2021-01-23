@@ -1,3 +1,12 @@
+- author: Lamers MM, Mykytyn AZ, Breugem TI, Wang Y, Wu DC, Riesebosch S, van den Doel PB, Schipper D, Bestebroer T, Wu NC, Haagmans BL
+  year: Preprint
+  title: "Human airway cells prevent SARS-CoV-2 multibasic cleavage site cell culture adaptation"
+  vol: ""
+  ref: bioRxiv
+  link: https://www.biorxiv.org/content/10.1101/2021.01.22.427802v1
+  doi: https://doi.org/10.1101/2021.01.22.427802
+  scripts: https://github.com/wchnicholas/SARS_CoV2_mutation
+
 - author: Yao J, Xu H, <b>Wu DC</b>, Ares M, Lambowitz AM
   year: Preprint
   title: "Human cells contain myriad excised linear intron RNAs with potential functions in gene regulation and utility as disease biomarkers"

@@ -29,7 +29,7 @@
 
 - author: Wu NC, Lv H, Thompson AJ, <b>Wu DC</b>, Ng WWS, Kadam RU, Lin CW, Nycholat CM, McBride R, Liang W, Paulson JC, Mok CKP, and Wilson IA
   year: 2019
-  title: "Preventing an Antigenically Disruptive Mutation in Egg-Based H3N2 Seasonal Influenza Vaccines by Mutational Incompatibility"
+  title: "Preventing an antigenically disruptive mutation in egg-based H3N2 seasonal Influenza Vaccines by Mutational Incompatibility"
   ref:  Cell Host & Microbe
   vol: "25(6):836-844"
   scripts: https://github.com/wchnicholas/incompatible_egg_muts
@@ -59,7 +59,7 @@
 
 - author: Guan W*, Wu NC*, Lee HHY, Li Y, Jiang W, Shen L, <b>Wu DC</b>, Chen R, Zhong N, Wilson IA, Peiris M, Yang Z, and Mok CKP 
   year: 2018
-  title: Clinical Correlations of Transcriptional Profile in Patients Infected with Avian Influenza H7N9 Virus
+  title: Clinical correlations of transcriptional profile in patients Infected with avian influenza H7N9 virus
   ref: The Journal of Infectious Diseases
   vol: "jiy317 (*contributed equally)"
   scripts: https://github.com/wckdouglas/H7N9_pathway
@@ -101,7 +101,7 @@
 
 - author: Geuss LR, <b>Wu DC</b>, Ramamoorthy D, Alford CD, and Suggs LJ
   year: 2014
-  title: Paramagnetic Beads and Magnetically Mediated Strain Enhance Cardiomyogenesis in Mouse Embryoid Bodies
+  title: Paramagnetic beads and magnetically mediated strain enhance cardiomyogenesis in mouse embryoid bodies
   ref: PLoS ONE
   vol: "9(12):e113982"
   scripts: https://github.com/wckdouglas/magnetic_Script
@@ -148,7 +148,7 @@
 
 - author: <b>Wu DC</b> and Waye M.
   year: 2011
-  title: The relationship between MicroRNA and Tumor Suppressors
+  title: The relationship between MicroRNA and tumor suppressors
   ref: Tumor Suppressors Nova Science
   vol: 175-188
   scripts:

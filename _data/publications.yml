@@ -5,7 +5,7 @@
   ref: bioRxiv
   scripts: https://github.com/wchnicholas/SARS_CoV2_mutation
   link: https://www.biorxiv.org/content/10.1101/2021.01.22.427802v1
-  doi: https://doi.org/10.1101/2021.01.22.427802
+  doi: 10.1101/2021.01.22.427802
 
 - author: Yao J, Xu H, <b>Wu DC</b>, Ares M, Lambowitz AM
   year: Preprint
@@ -13,7 +13,7 @@
   vol: ""
   ref: bioRxiv
   link: https://www.biorxiv.org/content/10.1101/2020.09.07.285114v1.abstract
-  doi: https://doi.org/10.1101/2020.09.07.285114
+  doi: 10.1101/2020.09.07.285114
 
 - author: Yao J*, <b>Wu DC*</b>, Nottingham RM, and Lambowitz AM
   year: 2020

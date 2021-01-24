@@ -324,3 +324,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 \\sshfs\USERNAME@HOST\..\..\
 ```
 
+# Useful alias #
+```
+alias git-tree='git log --oneline --decorate --all --graph'
+```

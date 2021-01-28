@@ -6,6 +6,7 @@
   scripts: https://github.com/wchnicholas/SARS_CoV2_mutation
   link: https://www.biorxiv.org/content/10.1101/2021.01.22.427802v1
   doi: 10.1101/2021.01.22.427802
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA694097
 
 - author: Yao J, Xu H, <b>Wu DC</b>, Ares M, Lambowitz AM
   year: Preprint

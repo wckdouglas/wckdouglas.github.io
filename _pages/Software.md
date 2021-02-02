@@ -6,7 +6,7 @@ permalink: /software/
 
 As I do programming exclusively on RNA/DNA-seq experiments bioinformatics analysis, all of the softwares I wrote are mainly focus on this aspect.
 
-# [Sequencing tools](file:///Users/wckdouglas/codes/sequencing_tools/docs/build/html/index.html#fastq-tools) #
+# [Sequencing tools](https://github.com/wckdouglas/sequencing_tools) #
 
 This is a python package that contains many of my day-to-day scripts and function for manuipulating SAM/BAM, Fastq, BED files from high-throughput genomic data.
 

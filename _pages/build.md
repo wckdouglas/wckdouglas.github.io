@@ -328,3 +328,11 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 ```
 alias git-tree='git log --oneline --decorate --all --graph'
 ```
+
+# Ipython #
+
+setting how many pandas columns showing in ipython
+```
+pd.set_option('display.max_columns', 500)
+pd.set_option('display.width', 1000)
+```

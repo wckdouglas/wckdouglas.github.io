@@ -223,8 +223,6 @@ pip3 install powerline-status
 Copy and paste the following code to ```~/.tmux.conf```
 
 ```
-source "$CONDA_PATH/lib/python3.6/site-packages/powerline/bindings/tmux/powerline.conf"'
-
 # change prefix, I like using ctrl + a, osx can also map ctrl to caps lock key
 unbind-key C-b
 set -g  prefix C-a
@@ -255,37 +253,22 @@ bind-key t new-window  -c "#{pane_current_path}"
 bind-key n new-window  -c "#{pane_current_path}"
 
 set-window-option -g mode-keys vi
-bind-key -t vi-copy 'v' begin-selection
-bind-key -t vi-copy 'y' copy-selection
+#bind-key -t vi-copy 'v' begin-selection
+#bind-key -t vi-copy 'y' copy-selection
 bind-key p paste-buffer
 
 
 #vim integration
 # Smart pane switching with awareness of vim splits
-is_vim='echo "#{pane_current_command}" | grep -iqE "(^|\/)g?(view|n?vim?)(diff)?$"'
-bind -n C-h if-shell "$is_vim" "send-keys C-h" "select-pane -L"
-bind -n C-j if-shell "$is_vim" "send-keys C-j" "select-pane -D"
-bind -n C-k if-shell "$is_vim" "send-keys C-k" "select-pane -U"
-bind -n C-l if-shell "$is_vim" "send-keys C-l" "select-pane -R"
-bind -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
-
-set-option -g renumber-windows on
-
-
-# Enable Powerline symbols (unless already specified otherwise in environment)
-if-shell ': ${TMUX_POWERLINE_SYMBOLS?}' '' 'set-environment -g TMUX_POWERLINE_SYMBOLS "powerline"'
-
 set-option -g status-interval 3
-set-option -g status-utf8 on
 set-option -g status-justify centre
 set-option -g status-left-length 90
 set-option -g status-right-length 60
-set-option -g status-left " ▶ #S #(${WORK}/src/tmux-powerline/powerline.sh left)"
-set-option -g status-right "#(${WORK}/src/tmux-powerline/powerline.sh right)"
-set-window-option -g window-status-current-format "#[fg=colour234, bg=colour234]#[fg=colour255, bg=colour4] ● #I:#W #[fg=colour27, bg=colour234]"
+set-window-option -g window-status-current-format "#[fg=colour234, bg=colour234]#[fg=colour255, bg=colour4] ▶ #I:#W #[fg=colour27, bg=colour234]"
 set-window-option -g window-status-format  "#[fg=colour234, bg=colour234]#[fg=colour255, bg=colour234] #I:#W #[fg=colour234, bg=colour234]"
 set -g status-bg colour234
 set -g status-fg colour255
+set -g status-right '#[fg=colour231,bg=colour234] %d/%m #[fg=colour231,bg=colour234] %H:%M:%S '
 ```
 
 <h1 id='tex'> tinytex </h1>

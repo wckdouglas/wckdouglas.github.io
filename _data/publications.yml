@@ -1,13 +1,3 @@
-- author: Lamers MM, Mykytyn AZ, Breugem TI, Wang Y, <b>Wu DC</b>, Riesebosch S, van den Doel PB, Schipper D, Bestebroer T, Wu NC, Haagmans BL
-  year: Preprint
-  title: "Human airway cells prevent SARS-CoV-2 multibasic cleavage site cell culture adaptation"
-  vol: ""
-  ref: bioRxiv
-  scripts: https://github.com/wchnicholas/SARS_CoV2_mutation
-  link: https://www.biorxiv.org/content/10.1101/2021.01.22.427802v1
-  doi: 10.1101/2021.01.22.427802
-  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA694097
-
 - author: Yao J, Xu H, <b>Wu DC</b>, Ares M, Lambowitz AM
   year: Preprint
   title: "Human cells contain myriad excised linear intron RNAs with potential functions in gene regulation and utility as disease biomarkers"
@@ -16,6 +6,16 @@
   link: https://www.biorxiv.org/content/10.1101/2020.09.07.285114v1.abstract
   doi: 10.1101/2020.09.07.285114
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
+
+- author: Lamers MM, Mykytyn AZ, Breugem TI, Wang Y, <b>Wu DC</b>, Riesebosch S, van den Doel PB, Schipper D, Bestebroer T, Wu NC, Haagmans BL
+  year: 2021
+  title: "Human airway cells prevent SARS-CoV-2 multibasic cleavage site cell culture adaptation"
+  vol: ""
+  ref: eLife
+  scripts: https://github.com/nicwulab/SARS-CoV-2_in_vitro_adaptation
+  link: https://elifesciences.org/articles/66815
+  doi: 10.7554/eLife.66815
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA694097
 
 - author: Yao J*, <b>Wu DC*</b>, Nottingham RM, and Lambowitz AM
   year: 2020

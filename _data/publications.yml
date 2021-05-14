@@ -7,6 +7,18 @@
   doi: 10.1101/2020.09.07.285114
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
 
+- author: Lamers MM, Breugem TI, Mykytyn AZ, Wang Y, Groen N,  Knoops K, Schipper D, van der Vaart J, Koopman CD, Zhang J, </b>Wu DC</b>, van den Doel PB, Bestebroer T, GeurtsvanKessel CH, Peters PJ,  Muraro MJ, Clevers H, Wu NC, Haagmans BL
+  year: Preprint
+  title: "Human organoid systems reveal in vitro correlates of fitness for SARS-CoV-2 B.1.1.7"
+  vol: ""
+  ref: bioRxiv
+  link: https://www.biorxiv.org/content/10.1101/2021.05.03.441080v1
+  doi: 10.1101/2021.05.03.441080
+  sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA722947
+  scripts: https://github.com/nicwulab/UK_strain_in_vitro_fitness
+
+
+
 - author: Lamers MM, Mykytyn AZ, Breugem TI, Wang Y, <b>Wu DC</b>, Riesebosch S, van den Doel PB, Schipper D, Bestebroer T, Wu NC, Haagmans BL
   year: 2021
   title: "Human airway cells prevent SARS-CoV-2 multibasic cleavage site cell culture adaptation"

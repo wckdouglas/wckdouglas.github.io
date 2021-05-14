@@ -159,6 +159,9 @@ git clone https://github.com/rakr/vim-one.git
 #install snakemake syntax
 cd ~/.vim/syntax
 wget https://mstamenk.github.io/assets/files/snakemake.vim
+
+#install mypy
+git clone https://github.com/integralist/vim-mypy ~/.vim/bundle/vim-mypy
 ```
 
 ### .vimrc ###

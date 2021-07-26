@@ -7,6 +7,7 @@ import glob
 import wordcloud
 import pdftotext
 import nltk
+import string
 from calendar import month_name
 from nltk.corpus import stopwords
 ENGLISH_STOP = set(stopwords.words('english'))
@@ -32,10 +33,11 @@ class research_wordcloud():
         self.words = None
         self.paper_stop = ['fig','figure','supplementary', 'author','press',
                             'PubMed', 'manuscript','nt','et','al', 'laboratory',
-                            'article','cold','spring','habor','harbor',
+                            'article','cold','spring','habor','harbor','Re',
                             'additional', 'additionalfile','additiona file']
         months = [month_name[i].lower() for i in range(1,13)]
         self.paper_stop.extend(months)
+        self.paper_stop.extend(list(string.ascii_lowercase))
         self.paper_stop.extend(list(map(lambda x: x.capitalize(), self.paper_stop)))
         self.paper_stop = set(self.paper_stop)
 
@@ -52,7 +54,8 @@ class research_wordcloud():
         '''
         remove stop words and punctuations
         '''
-        self.tokens = nltk.word_tokenize(self.texts)
+        tokenizer = nltk.RegexpTokenizer(r"\w+")
+        self.tokens = tokenizer.tokenize(self.texts)
         self.tokens =  nltk.pos_tag(self.tokens) #(tag the nature of each word, verb? noun?)
 
         self.words = []
@@ -72,9 +75,7 @@ class research_wordcloud():
                     self.words.append('E. coli')
                 else:
                     self.words.append(word)
-
         self.words = ' '.join(self.words)
-
 
     def generate_wordcloud(self, figurename):
         '''

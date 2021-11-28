@@ -323,3 +323,29 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
 pd.set_option('display.max_colwidth', 1000)
 ```
+
+
+# Apple Silicon #
+
+## conda ##
+
+Conda can be installed with [miniforge](https://github.com/conda-forge/miniforge/releases) to accomodate the m1 ARM chip. However, many of the bio tools won't be able to install easily through conda (bioconda).
+
+## python ##
+
+```
+mambaa install python=3.9 scikit-learn dask  pandas numpy scipy
+```
+
+## JAX ##
+
+```
+pip install -U https://storage.googleapis.com/jax-releases/mac/jaxlib-0.1.74-cp39-none-macosx_11_0_arm64.whl
+pip install jax
+```
+
+## numpyro ##
+
+```
+mamba install numpyro
+```

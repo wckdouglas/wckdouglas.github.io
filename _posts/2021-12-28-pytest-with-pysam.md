@@ -57,6 +57,11 @@ class PysamFakeBam:
 And then we will need a functions to create fake bam header and alignments:
 
 ```python
+from collections import OrderedDict
+
+import pysam
+
+
 def mock_bam_header(contig_list):
     """
     making a mock pysam.AlignmentHeader object
@@ -124,6 +129,8 @@ def mock_alignment(
 Now that we have these helper functions, we can start writing our test:
 
 ```python
+from mock import MagicMock, patch
+
 def test_filter_short_alignments():
     header = mock_bam_header([('chr1', 100)]) # mock a 100 bp chr1 contig
     in_alignment = mock_alignment(

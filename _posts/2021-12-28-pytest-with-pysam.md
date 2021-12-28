@@ -75,13 +75,6 @@ def mock_bam_header(contig_list):
     header_dict = OrderedDict(
         [
             ("SQ", [dict(SN=contig[0], LN=contig[1]) for contig in contig_list]),
-            (
-                "PG",
-                [
-                    {"ID": "bwa", "PN": "bwa",},
-                    {"ID": "samtools", "PN": "samtools", "PP": "bwa", "VN": "1.13", "CL": "samtools view -b",},
-                ],
-            ),
         ]
     )
     return pysam.AlignmentHeader.from_dict(header_dict)

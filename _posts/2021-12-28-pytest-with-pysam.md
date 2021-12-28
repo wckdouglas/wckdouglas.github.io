@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pytest with BAM/SAM"
-date: 2020-07-10T17:35:57-04:00
+date: 2021-12-28
 ---
 
 This post shows a way to test for a BAM I/O function without actually reading/writing to disk using [mock objects](https://docs.python.org/3/library/unittest.mock.html). 

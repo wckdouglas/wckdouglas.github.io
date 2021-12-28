@@ -145,4 +145,4 @@ def test_filter_short_alignments():
         mock_out_bam.write.assert_called_once_with(in_alignment) #because the filter function wouldn't touch alignments with >10 bases
 ```
 
-A example repo is at: https://github.com/wckdouglas/pytest-pysam
+A example repo is at: [https://github.com/wckdouglas/pytest-pysam](https://github.com/wckdouglas/pytest-pysam)

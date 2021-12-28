@@ -28,7 +28,7 @@ def filter_short_alignments(in_bam_file: Path, out_bam_file: Path):
 
 In theory this function only takes input and output bam file names for it to run. However, for unit testings, sometimes we don’t want to include a test file for testing this function. This is when mock objects become handy.
 
-To mock the returning values from pysam.AlignmentFile, we’d need a fake pysam object so that the for loop iteration of alignments will still work:
+To mock the returning values from `pysam.AlignmentFile`, we’d need a fake [pysam](https://pysam.readthedocs.io/en/latest/api.html) object so that the for loop iteration of alignments will still work:
 
 ```python
 class PysamFakeBam:
@@ -144,3 +144,5 @@ def test_filter_short_alignments():
         
         mock_out_bam.write.assert_called_once_with(in_alignment) #because the filter function wouldn't touch alignments with >10 bases
 ```
+
+A example repo is at: https://github.com/wckdouglas/pytest-pysam

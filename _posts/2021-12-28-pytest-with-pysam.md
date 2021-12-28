@@ -73,7 +73,7 @@ def mock_bam_header(contig_list):
             (
                 "PG",
                 [
-                    {"ID": "bwa", "PN": "bwa", "VN": "0.7.17-r1198-dirty",},
+                    {"ID": "bwa", "PN": "bwa",},
                     {"ID": "samtools", "PN": "samtools", "PP": "bwa", "VN": "1.13", "CL": "samtools view -b",},
                 ],
             ),
@@ -137,7 +137,7 @@ def test_filter_short_alignments():
         mapping_quality=30,
     )
     with patch("pysam.AlignmentFile") as pysam_bam:
-        mock_in_bam = PysamFakeBam(header, [in_alignment])
+        mock_in_bam = PysamFakeBam(header, [in_alignment]) #the mock in bam iterarotor will return our mock alignment
         mock_out_bam = MagicMock()
         pysam_bam.return_value.__enter__.side_effect = [mock_in_bam, mock_out_bam] #first call of the pysam.AlignmentFile will return mock_in_bam, second call will be mock_out_bam
         filter_short_alignments("/path/to/inbam", "/path/to/outbam") #these files are not real, because we are mocking the return of the call anyways

@@ -349,3 +349,12 @@ pip install jax
 ```
 mamba install numpyro
 ```
+
+
+## jupyter kernel ##
+
+```
+KERNEL_NAME=bfx
+conda activate ${ENV}
+python -m ipykernel install --user --name $KERNEL_NAME --display-name $KERNEL_NAME
+```

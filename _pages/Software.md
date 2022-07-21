@@ -10,7 +10,7 @@ As I do programming exclusively on RNA/DNA-seq experiments bioinformatics analys
 
 This is a python package that contains many of my day-to-day scripts and function for manuipulating SAM/BAM, Fastq, BED files from high-throughput genomic data.
 
-# [Stock profiler](https://github.com/wckdouglas/wu-stock) #
+# [Stock profiler](https://wu-stock.herokuapp.com/) #
 
 <iframe src="https://wu-stock.herokuapp.com/" style="border:none ; width: 1000px; height: 500px"></iframe>
 

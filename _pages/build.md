@@ -349,3 +349,26 @@ pip install jax
 ```
 mamba install numpyro
 ```
+
+
+## jupyter kernel ##
+
+```
+KERNEL_NAME=bfx
+conda activate ${ENV}
+python -m ipykernel install --user --name $KERNEL_NAME --display-name $KERNEL_NAME
+```
+
+## docker ##
+
+```
+# on apple silicon macs
+export DOCKER_BUILDKIT=0
+export COMPOSE_DOCKER_CLI_BUILD=0
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+```
+
+shell into images:
+```
+docker run -i -t  ${image} bash
+```

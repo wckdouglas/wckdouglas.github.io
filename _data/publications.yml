@@ -7,7 +7,7 @@
   doi: 10.1101/2020.09.07.285114
   sra: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA640428/
 
-- author: Lamers MM, Breugem TI, Mykytyn AZ, Wang Y, Groen N,  Knoops K, Schipper D, van der Vaart J, Koopman CD, Zhang J, </b>Wu DC</b>, van den Doel PB, Bestebroer T, GeurtsvanKessel CH, Peters PJ,  Muraro MJ, Clevers H, Wu NC, Haagmans BL
+- author: Lamers MM, Breugem TI, Mykytyn AZ, Wang Y, Groen N,  Knoops K, Schipper D, van der Vaart J, Koopman CD, Zhang J, <b>Wu DC</b>, van den Doel PB, Bestebroer T, GeurtsvanKessel CH, Peters PJ,  Muraro MJ, Clevers H, Wu NC, Haagmans BL
   year: Preprint
   title: "Human organoid systems reveal in vitro correlates of fitness for SARS-CoV-2 B.1.1.7"
   vol: ""

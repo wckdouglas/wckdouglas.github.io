@@ -101,6 +101,11 @@ conda install r-tidyverse r-caret r-stringi \
 	bioconductor-deseq2 r-bit64
 ```
 
+## Probablistic modeling ##
+
+```
+conda create -n prob pymc3 pandas arviz matplotlib seaborn scipy statsmodel
+```
 
 ### To use conda R in Rstudio ###
 

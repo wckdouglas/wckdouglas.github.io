@@ -104,7 +104,7 @@ conda install r-tidyverse r-caret r-stringi \
 ## Probablistic modeling ##
 
 ```
-conda create -n prob pymc3 pandas arviz matplotlib seaborn scipy statsmodel
+conda create -n prob pymc3 pandas arviz matplotlib seaborn scipy statsmodels ipykernel
 ```
 
 ### To use conda R in Rstudio ###
